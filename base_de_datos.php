@@ -10,7 +10,7 @@ un archivo env: https://parzibyte.me/blog/2018/06/30/leer-archivo-configuracion-
  */
 $passwd = "H380a140Z1$1nf";
 $usuario = "azureOp";
-$nombreBaseDeDatos = "dbtest";
+$nombreBaseDeDatos = "dbtest01";
 # Puede ser 127.0.0.1 o el nombre de tu equipo; o la IP de un servidor remoto
 $rutaServidor = "sqldbservertest01.database.windows.net";
 #$rutaServidor = "dbtestdev.ad.heb.com.mx";
