@@ -12,8 +12,8 @@ $passwd = "H380a140Z1$1nf";
 $usuario = "azureOp";
 $nombreBaseDeDatos = "dbtest";
 # Puede ser 127.0.0.1 o el nombre de tu equipo; o la IP de un servidor remoto
-#$rutaServidor = "dbtestdev.database.windows.net";
-$rutaServidor = "dbtestdev.ad.heb.com.mx";
+$rutaServidor = "sqldbservertest01.database.windows.net";
+#$rutaServidor = "dbtestdev.ad.heb.com.mx";
 
 try {
     $base_de_datos = new PDO("sqlsrv:server=$rutaServidor;database=$nombreBaseDeDatos;Encrypt=true;TrustServerCertificate=true", $usuario, $passwd);
